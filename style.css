@@ -172,12 +172,33 @@ button:hover {
     color: white;
     padding: 10px 0px;
     font-family: "Montserrat", sans-serif;
+    
 }
 
-.footer > div > p:nth-child(1) {
-    padding-top: 5rem;
-}
+
 
 .footer > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #191a1d;
     margin: 0px -8rem;
+    padding-top: 3rem;
+}
+
+
+
+.footer div:nth-child(1) img {
+    width: 25px;
+    margin-top: 6px;
+    background-color: #191a1d;
+    padding: 0px;
+    margin-left: 4rem;
+}
+
+.footer div:nth-child(2) img {
+    width: 25px;
+    margin-top: 6px;
+    background-color: #191a1d;
+    padding: 0px;
+    margin-right: 4rem;
 }
