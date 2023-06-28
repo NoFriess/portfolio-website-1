@@ -57,6 +57,10 @@ header {
     color: rgba(4, 175, 218, 1);
 }
 
+.toggle {
+    visibility: hidden;
+}
+
 button {
     padding: 9px 25px;
     border: solid;
@@ -64,7 +68,6 @@ button {
     border-color: rgba(4, 175, 218, 1);
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    
 }
 
 button:hover {
@@ -172,10 +175,8 @@ button:hover {
     color: white;
     padding: 10px 0px;
     font-family: "Montserrat", sans-serif;
-    
+    cursor: pointer;
 }
-
-
 
 .footer > div {
     display: grid;
@@ -184,8 +185,6 @@ button:hover {
     margin: 0px -8rem;
     padding-top: 3rem;
 }
-
-
 
 .footer div:nth-child(1) img {
     width: 25px;
@@ -202,3 +201,81 @@ button:hover {
     padding: 0px;
     margin-right: 4rem;
 }
+
+@media screen and (max-width: 500px) {
+
+    * {
+        max-width: 480px;
+    }
+
+    body {
+        max-width: 480px;
+    }
+
+    .nav_links {
+        display: none;
+    }
+
+    #button1 {
+        display: none;
+    }
+
+    .logo {
+        
+    }
+
+    .divider-1 {
+        width: 480px;
+        height: 30px;
+        margin-top: 2rem;
+    }
+
+    .divider-2 {
+        margin-top: 4rem;
+    }
+
+    .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container img {
+        width: 500px;
+        margin-top: -5rem;
+    }
+
+    .top-section {
+        padding: 0px 0px;
+        margin-top: 5rem;
+        width: 450px;
+        border-left: none;
+        text-align: center;
+    }
+
+    .top-section h1 {
+        border-bottom: 4px solid rgba(4, 175, 218, 1);
+        padding-bottom: 1rem;
+    }
+
+    .top-section p {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .text-heading {
+        width: 450px;
+        margin: 0px 0px;
+        padding: 0px 0px;
+    }
+
+    .quote2 {
+        margin-top: 5rem;
+        font-size: 19px;
+    }
+
+    .toggle {
+        
+        position: relative;
+    }
+  }
