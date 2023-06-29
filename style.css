@@ -186,6 +186,10 @@ button:hover {
     cursor: pointer;
 }
 
+.footer > div > p:hover {
+    color: grey;
+}
+
 .footer > div {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
