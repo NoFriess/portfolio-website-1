@@ -210,6 +210,10 @@ button:hover {
     margin-left: 2.4rem;
 }
 
+.small-footer {
+    display: none;
+}
+
 @media screen and (max-width: 500px) {
 
     body {
