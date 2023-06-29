@@ -222,10 +222,9 @@ button:hover {
 
     body {
         padding: 0px 0px 0px 0px;
-        margin: 0px 0px;
-        max-width: 480px;
+        margin: 0px 35px;
+        max-width: 390px;
     }
-
 
     .nav_links {
         display: none;
@@ -233,10 +232,6 @@ button:hover {
 
     #button1 {
         display: none;
-    }
-
-    .logo {
-        
     }
 
     .divider-1 {
@@ -254,12 +249,13 @@ button:hover {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 460px;
+        width: 390px;
     }
 
     .container img {
-        width: 460px;
+        width: 500px;
         margin-top: -7rem;
+        margin-left: 10px;
     }
 
     .top-section {
