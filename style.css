@@ -172,10 +172,8 @@ button:hover {
     color: white;
     padding: 10px 0px;
     font-family: "Montserrat", sans-serif;
-    
+    cursor: pointer;
 }
-
-
 
 .footer > div {
     display: grid;
@@ -184,8 +182,6 @@ button:hover {
     margin: 0px -8rem;
     padding-top: 3rem;
 }
-
-
 
 .footer div:nth-child(1) img {
     width: 25px;
@@ -201,4 +197,5 @@ button:hover {
     background-color: #191a1d;
     padding: 0px;
     margin-right: 4rem;
+}
 }
