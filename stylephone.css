@@ -84,7 +84,7 @@ button:hover {
 }
 
 .text-heading {
-    color: #04afda;
+    color: #03cdff;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -368,7 +368,7 @@ button:hover {
     }
 
     .small-footer div p {
-        color: grey;
+        color: white;
         font-family: "Montserrat", sans-serif;
         font-weight: 600;
         margin-top: 10px;

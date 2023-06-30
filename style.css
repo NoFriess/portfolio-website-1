@@ -84,7 +84,7 @@ button:hover {
 }
 
 .text-heading {
-    color: #04afda;
+    color: #03cdff;
     font-family: "Montserrat", sans-serif;
 }
 
@@ -97,6 +97,8 @@ button:hover {
     margin-top: 4rem;
     width: 1000px;
     text-align: center;
+    border-bottom: 4px solid rgba(4, 175, 218, 1);
+    padding-bottom: 2rem;
 }
 
 .container > p {
