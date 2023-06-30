@@ -189,11 +189,10 @@ button:hover {
 }
 
 
-    
+@media screen and (max-width: 390px) {   
     
     header {
-        padding: 25px 25px;
-        display: n;
+        padding: 1px 25px;
     }
 
     .nav_links {
@@ -218,12 +217,12 @@ button:hover {
     .container {
         padding: 0 0;
         margin: 0;
-        margin-top: 10rem;
-        margin-top: 5rem;
+        margin-top: 3rem;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-content: center;
+        
     }
 
     .container img {
@@ -239,7 +238,7 @@ button:hover {
         border-bottom: 4px solid rgba(4, 175, 218, 1);
         padding-bottom: 1rem;
         font-size: 30px;
-        width: 100px;
+        width: 300px;
         text-align: center;
     }
 
@@ -388,5 +387,5 @@ button:hover {
         min-width: 100%;
     }
 
-
+}
  
