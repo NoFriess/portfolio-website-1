@@ -88,7 +88,7 @@ button:hover {
     font-family: "Montserrat", sans-serif;
 }
 
-.container img {
+.gridphoto {
     width: 850px;
     margin-top: -7rem;
 }
@@ -254,7 +254,7 @@ button:hover {
         align-content: center;
     }
 
-    .container img {
+    .gridphoto {
         width: 100%;
         margin-top: -3rem;
         

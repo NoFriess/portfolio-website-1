@@ -88,9 +88,14 @@ button:hover {
     font-family: "Montserrat", sans-serif;
 }
 
-.container img {
+.gridphoto {
     width: 850px;
     margin-top: -7rem;
+}
+
+.gridphotomobile {
+    display: none;
+    margin: 0px 20px;
 }
 
 .container h1 {
