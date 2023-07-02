@@ -40,16 +40,8 @@ header {
     transition: all 0.3s ease 0s;
 }
 
-.toggle {
-    display: none;
-}
-
 .nav_links li a:hover {
     color: rgba(4, 175, 218, 1);
-}
-
-.bars {
-    display: none;
 }
 
 .quote2 {
@@ -221,15 +213,52 @@ button:hover {
     
     header {
         padding: 25px 25px;
-        display: n;
     }
 
     .nav_links {
-        display: none;
+        margin-left: 19rem;
+    }
+
+    .nav_links li {
+        display: inline-block;
+        padding: 0px 10px;
+    }
+
+    .nav_links li a {
+        font-size: 20px;
     }
 
     #button1 {
         display: none;
+    }
+
+    .toggle {
+        cursor: pointer;
+    }
+
+    .bars {
+        background-color: white;
+        display: inline-block;
+        height: 5px;
+        position: relative;
+        width: 25px;
+    }
+
+    .bars::before,.bars::after {
+        background-color: white;
+        content:"";
+        display: inline-block;
+        height: 5px;
+        position: absolute;
+        width: 25px;
+    }
+
+    .bars::before{
+        top: 8px
+    }
+
+    .bars::after {
+        top: -8px;
     }
 
     .divider-1 {
@@ -287,7 +316,6 @@ button:hover {
     }
 
     .text-heading {
-        
         margin: 0px 0px;
         padding: 0px 0px;
     }
@@ -300,10 +328,6 @@ button:hover {
         margin-bottom: 5rem;
     }
 
-    .toggle {
-        display: none;
-        position: relative;
-    }
 
     .container-2 {
         display: flex;
