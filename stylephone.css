@@ -308,8 +308,6 @@ button:hover {
         display: flex;
         overflow: hidden;
         height: auto;
-        border-top: 4px solid rgba(4, 175, 218, 1);
-        padding-top: 1rem;
     }
 
     .container-3 :nth-child(1) { order: 1; }
