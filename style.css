@@ -1,4 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #191a1d;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: white;
+}
 
 body {
     margin: 0px 0px;
@@ -88,7 +99,7 @@ button:hover {
     font-family: "Montserrat", sans-serif;
 }
 
-.gridphotomobile {
+.gridphoto {
     width: 850px;
     margin-top: -7rem;
 }
@@ -102,17 +113,18 @@ button:hover {
     margin-top: 4rem;
     width: 1000px;
     text-align: center;
-    border-bottom: 4px solid rgba(4, 175, 218, 1);
-    padding-bottom: 2rem;
 }
 
 .container > p {
     font-family: "Montserrat", sans-serif;
     font-size: 15px;
     color: white;
-    margin-top: 10px;
+    margin-top: 2px;
     text-align: center;
     width: 825px;
+    padding-top: 1rem;
+    border-radius: 15px;
+    border-top: 4px solid rgba(4, 175, 218, 1);
 }
 
 .divider-1 {
@@ -127,7 +139,7 @@ button:hover {
     margin-top: 8rem;
 }
 
-.container-2 {
+.container-3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 10rem;
@@ -136,14 +148,14 @@ button:hover {
     margin-left: 12rem;
 }
 
-.container-2 div {
+.container-3 div {
     width: 500px;
     margin: 5rem 0px;
     border-left: 4px solid rgba(4, 175, 218, 1);
     padding-left: 1rem;
 }
 
-.container-2 div p {
+.container-3 div p {
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
@@ -161,7 +173,7 @@ button:hover {
     position: fixed;
     left: 0;
     bottom: 0;
-    background-color: rgba(4, 175, 218, 0.5);
+    background-color: #191a1d;
     text-align: center;
     color: white;
     font-size: 14px;

@@ -112,7 +112,7 @@ button:hover {
     margin-top: 8rem;
 }
 
-.container-2 {
+.container-3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin-top: 10rem;
@@ -121,14 +121,14 @@ button:hover {
     margin-left: 12rem;
 }
 
-.container-2 div {
+.container-3 div {
     width: 500px;
     margin: 5rem 0px;
     border-left: 4px solid rgba(4, 175, 218, 1);
     padding-left: 1rem;
 }
 
-.container-2 div p {
+.container-3 div p {
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 13px;
@@ -292,7 +292,6 @@ button:hover {
     .container h1 {
         margin-top: 2rem;
         padding: 0;
-        border-bottom: 4px solid rgba(4, 175, 218, 1);
         padding-bottom: 1rem;
         font-size: 30px;
         width: 350px;
@@ -329,7 +328,7 @@ button:hover {
     }
 
 
-    .container-2 {
+    .container-3 {
         display: flex;
         grid-template-columns: none;
         flex-direction: column;
@@ -338,13 +337,13 @@ button:hover {
         display: none;
     }
 
-    .container-2 div {
+    .container-3 div {
         width: 460px;
         margin: 5rem 0px;
         border-left: 4px solid rgba(4, 175, 218, 1);
     }
 
-    .container-2 div p {
+    .container-3 div p {
         width: 350px;
     }
 
