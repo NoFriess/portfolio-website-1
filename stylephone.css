@@ -301,6 +301,38 @@ button:hover {
         top: -5px;
     }
 
+    .container-2 {
+        flex-direction: column;
+        margin: 0 0;
+        
+    }
+
+    .reviews:nth-child(5) {
+        margin-left: 55%;
+    }
+
+    .reviews {
+        width: 175px;
+        margin-left: 15px;
+    }
+
+    .reviews h2 {
+        font-size: 20px;
+    }
+
+    .reviews h1 {
+        font-size: 12px;
+        margin-left: 1px;
+    }
+
+    .reviews p {
+        font-size: 10px;
+    }
+
+    .reviews img {
+        width: 11px;
+    }
+
     .container-3 {
         padding: 0;
         margin: 0;
