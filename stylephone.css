@@ -304,7 +304,7 @@ button:hover {
     .container-2 {
         flex-direction: column;
         margin: 0 0;
-        
+        margin-left: 15px;
     }
 
     .reviews:nth-child(5) {
@@ -312,12 +312,13 @@ button:hover {
     }
 
     .reviews {
-        width: 175px;
-        margin-left: 15px;
+        max-width: 165px;
+        min-width: 165px;
+        
     }
 
     .reviews h2 {
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .reviews h1 {
@@ -327,6 +328,10 @@ button:hover {
 
     .reviews p {
         font-size: 10px;
+    }
+
+    .stars {
+        height: 38.59;
     }
 
     .reviews img {
