@@ -474,7 +474,7 @@ button:hover {
         position: fixed;
         left: 0;
         bottom: 0;
-        background-color: rgba(4, 175, 218, 0.5);
+        background-color: #191a1d;
         text-align: center;
         color: white;
         font-size: 14px;
