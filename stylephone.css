@@ -314,20 +314,23 @@ button:hover {
     .reviews {
         max-width: 165px;
         min-width: 165px;
-        
+        padding: 0;
     }
 
     .reviews h2 {
         font-size: 17px;
+        padding: 0;
     }
 
     .reviews h1 {
-        font-size: 12px;
+        font-size: 10px;
         margin-left: 1px;
+        padding: 0;
     }
 
     .reviews p {
         font-size: 10px;
+        margin: 0;
     }
 
     .stars {
